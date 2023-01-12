@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "diwakarand/projcertimage"
+    registry = "diwakarand/projectcertimagejenkins"
     registryCredential = 'diwakarand'
     dockerImage = ''
   }
