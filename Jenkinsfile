@@ -1,10 +1,10 @@
 pipeline {
   environment {
-    registry = "diwakarand/projectcertimagejenkins"
+    registry = "diwakarand/projectcertviavmworkstation"
     registryCredential = 'diwakarand'
     dockerImage = ''
   }
-  agent {label 'worker01'}
+  agent {label 'docker'}
   stages {
     stage('Cloning Git') {
       steps {
